@@ -13,3 +13,37 @@ img {
     width: 100%;
     display: block;
 }
+
+/* 
+    GENERAL
+*/
+
+header {
+    background-color: lightcoral;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: magenta;
+    border: 1px solid black;
+}
+
+#griglia {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.my-background {
+    background-color: green;
+}
+
+/* header */
+
+#my-button {
+    border-radius: 13px;
+    padding: 10px 15px;
+}
